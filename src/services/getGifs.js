@@ -1,6 +1,3 @@
-// En la función getGifs, cuando hacemos el map() y sacamos la URL de la imagen, lo que vamos a hacer es sacar
-// sacar otra info a parte: title y id.
-
 const apiKey = 'uPtq0getJnqlCXxbscbMDtq5SBazTx8C';
 
 const getGifs = ({keyword} = {}) => {
@@ -20,6 +17,10 @@ const getGifs = ({keyword} = {}) => {
             return gifs
         })
 }
+
+// En la función getGifs, cuando hacemos el map() y sacamos la URL de la imagen, lo que vamos a hacer es sacar
+// sacar otra info a parte: title y id.
+
 
 export default getGifs;
 

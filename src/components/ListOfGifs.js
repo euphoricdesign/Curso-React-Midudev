@@ -14,15 +14,6 @@ const ListOfGifs = ({keyword}) => {
         <Gif key={id} id={id} title={title} url={url} />
     ) 
 
-    // return gifs.map(singleGif => 
-    //     <Gif 
-    //         key={singleGif.id} 
-    //         id={singleGif.id} 
-    //         title={singleGif.title} 
-    //         url={singleGif.url} 
-    //     />
-    // )
-
 }
 
 export default ListOfGifs;
@@ -34,4 +25,4 @@ export default ListOfGifs;
 // renderice hacemos una llamada a la api con esa keyword que le pasamos por parametro. 
 
 // Esta keyword es una DEPENDENCIA del efecto. Lo que queremos es que este componente, cada vez que se cambie la prop que le llega 
-// que se vuelva a renderizar. 
+// se vuelva a renderizar. 

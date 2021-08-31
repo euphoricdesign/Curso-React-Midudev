@@ -12,8 +12,8 @@ function App() {
   return (
     <div className="App-content">
       <section>
-        <button onClick={() => setKeyword('mapache')}></button>
-        <ListOfGifs keyword={"pretty woman"} />
+        <button onClick={() => setKeyword('mapache')}>Cambiar keyword</button>
+        <ListOfGifs keyword={keyword} />
       </section>
 
     </div>
@@ -30,6 +30,9 @@ export default App;
 
 // Ahora en la aplicación tenemos el componente ListOfGifs al cuál le pasamos la prop keyword y esa keyword nos va a hacer una llamada a 
 // la api con el valor que le pongamos. 
+
+
+
 
 // Para que el componente ListOfGifs se renderice cada vez que cambie la prop que le pasemos, lo que hacemos
 // es tener la keyword como estado y por defecto la misma va a ser 'panda'.
