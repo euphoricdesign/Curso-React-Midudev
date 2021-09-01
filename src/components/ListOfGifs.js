@@ -3,7 +3,8 @@ import Gif from './Gif'
 import getGifs from '../services/getGifs';
 
 const ListOfGifs = ({params}) => {
-    const { keyword } = params;
+    console.log("params::::::::::",params)
+    const { keyword } = params; // dependecia del effect
 
     const [gifs, setGifs] = useState([]);
 
