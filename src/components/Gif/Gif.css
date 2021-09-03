@@ -1,0 +1,17 @@
+.Gif {
+    display: flex;
+    margin: 16px;
+    flex-direction: column;
+    padding: 32px;
+    width: 100%;
+}
+
+.title {
+    color: pink;
+}
+
+.img-gif {
+    width: 200px;
+}
+
+

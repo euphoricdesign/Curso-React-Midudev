@@ -3,7 +3,7 @@
 }
 
 .App-content {
-  background-color: #282c34;
+  background-color: #ffff;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -16,8 +16,21 @@
 }
 
 a {
-  color: aqua;
+  color: #ff13a794;
   font-size: 24px;
   display: block;
+  text-decoration: none;
+  font-weight: 500;
+  font-family: sans-serif;
+}
+
+.App-logo {
+  width: 300px;
+  cursor: pointer;
+}
+
+.App-title {
+  color: #222222;
+  font-family: sans-serif;
 }
 
