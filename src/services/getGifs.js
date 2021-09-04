@@ -18,9 +18,6 @@ const getGifs = ({keyword} = {}) => {
         })
 }
 
-// En la función getGifs, cuando hacemos el map() y sacamos la URL de la imagen, lo que vamos a hacer es sacar
-// sacar otra info a parte: title y id.
-
 
 export default getGifs;
 

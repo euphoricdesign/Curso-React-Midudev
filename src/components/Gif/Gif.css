@@ -7,7 +7,9 @@
 }
 
 .title {
-    color: pink;
+    color: grey;
+    text-align: center;
+    font-size: 15px;
 }
 
 .img-gif {
